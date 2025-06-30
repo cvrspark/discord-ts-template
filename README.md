@@ -1,6 +1,6 @@
-# Discord Bot on TypeScript by cvrspark (en)
+# Discord Bot on TypeScript by cvrspark / Дискорд Бот на TypeScript от cvrspark
 
-## Project Structure
+## Project Structure / Структура проекта
 
 ```plaintext
 src/
@@ -31,49 +31,49 @@ src/
 └── index.ts
 ```
 
-### Installation
+### Installation / Установка
 
-1. Clone the repository:
+1. Clone the repository / Клонируйте репозиторию:
    ```bash
    git clone <repository-url>
    gh repo clone cvrspark/discord-ts-template
    ```
 
-2. Install dependencies:
+2. Install dependencies / Установите зависимости:
    ```bash
    npm install
    ```
 
-3. Build the project:
+3. Build the project / Соберите проект:
    ```bash
    npm run build
    ```
 
-4. Deploy commands:
+4. Deploy commands / Выложите команды:
    ```bash
    npm run deploy
    ```
 
-5. Start the bot:
+5. Start the bot / Запустите бота:
    ```bash
    npm start
    ```
 
 ### Development
 
-1. Watch mode:
+1. Watch mode / Режим наблюдения:
    ```bash
    npm run watch
    ```
 
-2. Developer mode:
+2. Developer mode / Режим разработки:
    ```bash
    npm run dev
    ```
 
-### Code Examples
+### Code Examples / Примеры кода
 
-#### Commands
+#### Commands / Команды
 ```typescript
 import { SlashCommandBuilder, ChatInputCommandInteraction } from 'discord.js';
 
@@ -87,7 +87,7 @@ export default {
 };
 ```
 
-#### Buttons
+#### Buttons / Кнопки
 ```typescript
 import { ButtonInteraction } from 'discord.js';
 
@@ -101,7 +101,7 @@ export default {
 };
 ```
 
-#### Select Menus
+#### Select Menus / Mеню
 ```typescript
 import { StringSelectMenuInteraction } from 'discord.js';
 
@@ -115,7 +115,7 @@ export default {
 };
 ```
 
-#### Modals
+#### Modals / Модальные окна
 ```typescript
 import { ModalSubmitInteraction } from 'discord.js';
 
@@ -132,4 +132,3 @@ export default {
 ### License
 
 This project is licensed under the MIT License.
-
