@@ -36,7 +36,7 @@ src/
 1. Клонируйте репозиторий:
    ```bash
    git clone <repository-url>
-   gh repo clone cvrspark/discord-ts-layout
+   gh repo clone cvrspark/discord-ts-template
    ```
 
 2. Установите зависимости:
